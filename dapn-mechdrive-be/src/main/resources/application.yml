@@ -1,0 +1,13 @@
+server:
+  port: ${PORT:3000}
+
+spring:
+  application:
+    name: mechdrive-calculator-backend
+
+app:
+  security:
+    jwt:
+      secret: ${JWT_SECRET:change-me}
+  database:
+    url: ${DATABASE_URL:}
